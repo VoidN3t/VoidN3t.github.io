@@ -39,16 +39,16 @@ async function main() {
     await printLine();
     await printLine();
     await printLine('MINECRAFT PLUGINS');
-    await typeLine('80% [########--]');
+    await printLine('80% [########--]');
     await printLine();
-    await typeLine('JS, HTML, CSS');
-    await typeLine('50% [#####-----]');
+    await printLine('JS, HTML, CSS');
+    await printLine('50% [#####-----]');
     await printLine();
-    await typeLine('PYTHON');
-    await typeLine('60% [######----]');
+    await printLine('PYTHON');
+    await printLine('60% [######----]');
     await printLine();
-    await typeLine('DISCORD.JS');
-    await typeLine('20% [#######---]');
+    await printLine('DISCORD.JS');
+    await printLine('20% [#######---]');
 
 }
 
