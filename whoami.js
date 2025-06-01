@@ -48,7 +48,7 @@ async function main() {
     await printLine('60% [######----]');
     await printLine();
     await printLine('DISCORD.JS');
-    await printLine('20% [#######---]');
+    await printLine('20% [##--------]');
 
 }
 

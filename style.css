@@ -1,49 +1,52 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: 'VT323', monospace;
-    font-size: 2rem;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .terminal {
-    text-align: left;
-    padding: 20px;
-    width: 90%;
-    max-width: 800px;
-    margin-top: 10vh; /* sposta il terminale più in alto */
-  }
-  
-  .output {
-    font-size: 1.5rem;
-    margin: 0;
-    animation: appear 1.5s ease-in;
-  }
-  
-  /* Righe stampate dinamicamente */
-  .line {
-    margin: 0;
-    white-space: pre-wrap;
-  }
-  
-  /* Cursore lampeggiante */
-  .cursor {
-    font-size: 1.5rem;
-    margin: 0;
-    display: inline-block;
-    animation: blink 1s infinite;
-  }
-  
-  /* Effetto apparizione */
-  @keyframes appear {
-    from { opacity: 0; transform: translateY(-10px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  
-  /* Lampeggio cursore stile terminale */
-  @keyframes blink {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
-  }
-  
+  background-color: black;
+  color: white;
+  font-family: 'VT323', monospace;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;     /* centrare orizzontalmente */
+  align-items: flex-start;     /* allineare in alto */
+  height: 100vh;               /* altezza viewport */
+}
+
+.terminal {
+  text-align: left;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  margin-top: 40px;            /* distanza dall'alto */
+}
+
+.output {
+  font-size: 1.5rem;
+  margin: 0;
+  animation: appear 1.5s ease-in;
+}
+
+/* Righe stampate dinamicamente */
+.line {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+/* Cursore lampeggiante */
+.cursor {
+  font-size: 1.5rem;
+  margin: 0;
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+
+/* Effetto apparizione */
+@keyframes appear {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Lampeggio cursore stile terminale */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}

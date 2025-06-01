@@ -1,7 +1,8 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'Courier New', monospace;
+  font-family: 'VT323', monospace;
+  font-size: 2rem;
   margin: 0;
   padding: 1rem;
 }
