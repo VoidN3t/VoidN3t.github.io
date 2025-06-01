@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 1rem;
+}
+
+#terminal {
+  max-width: 800px;
+  margin: 0 auto;
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
+
+.line {
+  margin: 0.2em 0;
+}

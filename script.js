@@ -60,7 +60,7 @@ async function printPromptWithInput(delay = 0) {
       } else {
         const error = document.createElement('p');
         error.classList.add('line');
-        error.textContent = 'UNKNOWN GAME. TRY AGAIN.';
+        error.textContent = 'ACCES DENIED.';
         terminal.appendChild(error);
       }
     }
